@@ -5,7 +5,7 @@ var Gmail = require('node-gmail-api')
 
 
 
-router.get('/list', isLoggedIn, function(req, res) {
+router.get('/list',  function(req, res) {
 
 	var s = gmail.messages('label:inbox', {max: 10});
     s.on('data', function (d) {

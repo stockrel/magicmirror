@@ -46,7 +46,8 @@
     "socket.io": "latest",
     "valid-url": "latest",
     "walk": "latest",
-    "node-gmail-api": "latest"
+    "googleapis": "latest",
+    "google-auth-library" : "latest"
   },
   "eslintConfig": {
     "extends": "google"
