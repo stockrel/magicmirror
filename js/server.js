@@ -22,6 +22,7 @@ var Server = function(config, callback) {
 	app.use("/fonts", express.static(path.resolve(__dirname + "/../fonts")));
 	app.use("/modules", express.static(path.resolve(__dirname + "/../modules")));
 	app.use("/vendor", express.static(path.resolve(__dirname + "/../vendor")));
+	app.use("/img", express.static(path.resolve(__dirname + "/../img")));
 	app.use("/mails",mails);
 
 	app.get("/", function(req, res) {
